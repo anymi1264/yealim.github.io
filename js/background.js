@@ -4,7 +4,7 @@ const chosenImag = images[Math.floor(Math.random()*images.length)];
 
 const bgstyle = document.createElement("style");
 
-bgstyle.innerText = `body { background : url(img/${chosenImag})no-repeat center center fixed rgba(0, 0, 0, 0.6);
+bgstyle.innerText = `body { background : url(img/${chosenImag})no-repeat center center fixed rgba(0, 0, 0, 0.7);
 background-blend-mode: multiply; background-size: cover}`;
 
 document.body.appendChild(bgstyle)

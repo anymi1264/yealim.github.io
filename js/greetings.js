@@ -2,6 +2,8 @@ const loginForm = document.querySelector("#login-form");
 const loginInput = document.querySelector("#login-form input");
 const greeting = document.querySelector("#greeting");
 
+
+
 const HIDDEN_CLASSNAME = "hidden";
 const USERNAME_KEY = "username";
 
@@ -18,13 +20,13 @@ function onLogout(event){
     greeting.classList.add(HIDDEN_CLASSNAME);
     loginForm.classList.remove(HIDDEN_CLASSNAME);
     loginInput.value=``;
-    
 }
 
 function paintGreetings(username){
     greeting.innerText = `Hello ${username}`;
     greeting.classList.remove(HIDDEN_CLASSNAME);
-    const logOutBtn = document.createElement("button")
+    const logOutBtn = document.createElement("button");
+    logOutBtn.classList.add("btn");
     greeting.appendChild(logOutBtn)
     logOutBtn.innerText = `Log out`
     logOutBtn.addEventListener("click",onLogout);

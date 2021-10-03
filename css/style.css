@@ -6,14 +6,49 @@
 body{
     color:#fff;
     text-align: center;
-    
 }
 
 #login-form input{
     margin-top: 100px;
-    border:1px solid white;
     background-color:transparent;
     color: #fff;
+    border-radius :30px;
+    margin-right:10px;
+    border:1px solid white;
+    height:30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#login-form input:first-child{
+    width:200px;
+    
+}
+
+
+#login-form input:last-child{
+    margin-right: 0;
+    width:70px;
+}
+
+#login-form input:hover{
+    cursor: pointer;
+}
+
+.btn {
+    color:#fff;
+    border:1px solid white;
+    border-radius :30px;
+    background-color:transparent;
+    width: 80px;
+    height: 30px;
+    margin-left: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.btn:hover {
+    cursor: pointer;
 }
 
 #greeting {
@@ -35,21 +70,77 @@ body{
     font-weight: 100;
 }
 
+#todo-form{
+    margin:0 auto;
+    margin-top: 100px;
+    
+}
 
-button {
+#todo-form input{
+    width:400px;
+    height: 40px;
+    background-color:transparent;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    border: 0;
+    border-bottom :1px solid white;
+}
+
+#todo-form input::placeholder {
+    color: #fff;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#todo-form input:focus{
+    outline: 0;
+}
+
+#todo-list{
+    margin-top: 40px;
+}
+
+#todo-list li{
+    margin-bottom: 5px;
+    font-size: 12px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+#todo-list span{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.todoBtn{
     color:#fff;
-    border:1px solid white;
     border-radius :30px;
     background-color:transparent;
-    width: 80px;
-    height: 30px;
+    font-size: 25px;
+    vertical-align: middle;
+    border: 0;
 }
 
-#login-form input:focus{
-    box-shadow: none;
-    outline:1px solid #d50000;
+
+.todoBtn:hover {
+    cursor: pointer;
 }
+
+
 
 #greeting{
     margin-top:100px
+}
+
+#weather{
+    position: fixed;
+    width: 100%;
+    top:0;
+    margin-top: 20px;
+}
+
+#quote{
+    
 }
