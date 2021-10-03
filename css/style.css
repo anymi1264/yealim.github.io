@@ -1,0 +1,55 @@
+
+.hidden {
+    display:none;
+}
+
+body{
+    color:#fff;
+    text-align: center;
+    
+}
+
+#login-form input{
+    margin-top: 100px;
+    border:1px solid white;
+    background-color:transparent;
+    color: #fff;
+}
+
+#greeting {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+#clock {
+    padding-bottom:0px;
+    margin-bottom: 0px;
+    font-size: 100px;
+    font-weight: 1000;
+    
+}
+
+#date{
+    margin-top:-10px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+
+button {
+    color:#fff;
+    border:1px solid white;
+    border-radius :30px;
+    background-color:transparent;
+    width: 80px;
+    height: 30px;
+}
+
+#login-form input:focus{
+    box-shadow: none;
+    outline:1px solid #d50000;
+}
+
+#greeting{
+    margin-top:100px
+}
